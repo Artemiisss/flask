@@ -6,7 +6,6 @@ from ua_parser import user_agent_parser
 
 app = Flask(__name__)
 
-
 @app.route("/")
 def main():
     return "<h1>U are on the main page</h1>" \
